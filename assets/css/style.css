@@ -1,0 +1,94 @@
+*{
+	margin : 0 ;
+	padding: 0 ;
+	box-sizing: border-box;
+}
+
+/*targets the html element body*/
+body{
+	background-image: url(../images/me2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #f2f2f2; /*off-white*/
+	font-family: 'PT Serif', serif;
+	text-align: center;
+}
+
+/*targets the html element h1*/
+h1{
+	color: red;
+	font-size: 40px;
+	background-color: #333; /*off-black*/
+	text-transform: uppercase;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	letter-spacing: 3px;
+	padding: 10px;
+	border-radius: 10px;
+	border-style: solid;
+	border-color: orange;
+}
+
+/*targets the html element h2*/
+h2{
+	color: yellow;
+	font-size: 20px;
+	background-color: #333; /*off-black*/
+	text-transform: uppercase;
+	margin-top:5px;
+	margin-bottom: 5px;
+	letter-spacing: 3px;
+	padding: 10px;	
+	border-radius: 10px;
+	border-style: solid;
+	border-color: green;
+}
+
+h3{
+	background-color: #333;
+	border-style:solid;
+	border-radius:10px;
+}
+
+/*targets the html id attribute me3*/
+#me3{
+	text-align:center;
+	width:250px;
+	height:250px;
+	border-radius: 50%;
+	border-color: 5px;
+	border-style: solid;
+	margin:10px auto 5px auto;
+	border-style: solid;
+	border-color: blue;
+}
+
+/*targets the html class attribute bio*/
+.bio{
+	font-size: 18px;
+	line-height: 1.75;
+	background-color: rgba(51,51,51,0.5);
+	opacity: 0.5;
+}
+
+.link{
+	color:white;
+	background-color: #333;
+	border-style:solid;
+	border-radius:10px;
+	margin: 10px auto;
+}
+
+.container{
+	width:500px;
+	margin: 0px auto;
+}
+
+.profpic{
+	width: 500px;
+	height: 275px;
+	margin: 10px auto 0px auto;
+}
+
+/*end of body styling*/
